@@ -14,7 +14,7 @@ public class MultiTouch : MonoBehaviour {
 	int leftFingerId;
 
 	//Use this for initialization
-	void start(){
+	void Start(){
 		this.myHingeJoint = GetComponent<HingeJoint>();
 		SetAngle (this.defaultAngle);
 	}
